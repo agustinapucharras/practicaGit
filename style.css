@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#header {
+  background-color: aqua;
+  color: orange;
+  text-shadow: 2px 4px 4px black;
+  font-family: sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+.main {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Giant_Panda_2.JPG/1280px-Giant_Panda_2.JPG");
+  background-size: cover;
+}
+
+.footer {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 121, 103, 1) 48%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
