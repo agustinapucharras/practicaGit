@@ -1,0 +1,28 @@
+create database Com2;
+use Com2;
+
+create table Alumnos(
+id_alumno int primary key auto_increment not null,
+nombre varchar(50) not null,
+edad int,
+imagen text,
+fechaNac date not null,
+casado bool,
+sexo enum("masculino", "femenino") not null,
+email varchar (250) unique,
+alta bool default 1,
+fecha_alta datetime
+);
+
+select * from Alumnos
+
+-- DDL(data definition language) DML (data managment language)
+
+alter table Alumnos drop column edad;  -- para borrar la columna de edad
+alter table Alumnos add column edad int not null; --para agregar una nueva columna
+
+drop table Alumnos;  -- me borra la tabla 
+truncate table alumnos; -- me borra los datos de la tabla
+
+insert into alumnos(nombre,edad,imagen,fechaNac,casado,sexo,email,alta,fecha_alta) values ("agustina",23,"dscdssd","2002-05-06",0,0,"femenino","aguspuch@gmail.com",1,null)
+q es ddl,

@@ -1,0 +1,55 @@
+{
+    "personalInfo":{
+        "name": "Agustina Nahir",
+        "surname": "Pucharras",
+        "image": "",
+        "hobbies": ["Programming", "Traveling"],
+        "skills": [{
+            "name": "JavaScript",
+            "level": "80%"        
+            },
+        {
+            "name": "React",
+            "level": "75%"
+        },
+        {
+            "name": "HTML",
+            "level": "100%"
+        },
+        {
+            "name": "CSS",
+            "level": "70%"
+        },
+        {
+            "name": "Node.js",
+            "level": "50%"
+        }]
+        },
+    "projects": [
+        {
+            "id":"1",
+            "name": "ElectroShop",
+            "description": "E-commerce platform for electronics.",
+            "image": "/electroshop.jpg",
+            "url": "https://electroshopargentina.netlify.app/",
+            "git":"https://github.com/agustinapucharras/ecommerceElectroShop.git"
+        },
+        {
+            "id":"2",
+            "name": "RollingMusic",
+            "description": "It is a page to log in, register and add favorite songs.",
+            "image": "/rollingmusic.jpg",
+            "url": "https://rolling-musicproyect.netlify.app/",
+            "git":"https://github.com/agustinapucharras/rollingMusic.git"
+        },
+        {
+            "id":"3",
+            "name": "Coctel&Co",
+            "description": "This page is created in order to show the beverage catalog, and make a CRUD.",
+            "image": "/Cóctel&Co.png",
+            "url": null,
+            "git":"https://github.com/agustinapucharras/coctelco.git"
+        }
+    ]
+}
+

@@ -1,0 +1,1 @@
+hook -> es una funcion que resuelve determinado problema
